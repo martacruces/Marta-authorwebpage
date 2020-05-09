@@ -1,7 +1,7 @@
 {
-	"name": "adalab-web-starter-kit",
+	"name": "marta-authorwebpage",
 	"version": "2.0.2",
-	"description": "Adalab web starter kit",
+	"description": "Marta author webpage",
 	"dependencies": {
 		"browser-sync": "^2.26.7",
 		"del": "^5.1.0",
@@ -29,13 +29,14 @@
 		"start": "gulp",
 		"docs": "rm -rf docs && gulp docs",
 		"push-docs": "rm -rf docs && gulp docs && git add docs/* && git commit -m \"Update docs\" && git push",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"preinstall": "npx npm-force-resolutions"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+ssh://git@github.com:Adalab/Adalab-web-starter-kit.git"
 	},
-	"author": "Adalab",
+	"author": "Marta",
 	"license": "MIT",
 	"homepage": "https://github.com/Adalab/Adalab-web-starter-kit"
 }

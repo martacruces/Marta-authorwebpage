@@ -1,5 +1,18 @@
 .page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  width: 100%;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  &-background {
+    background: url("../images/header.jpg");
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    height: 15vh;
+  }
+  &-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
